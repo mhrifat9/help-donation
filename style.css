@@ -106,6 +106,7 @@ hr{
 #plan{
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 #food{
     background-color: rgba(230, 230, 230, 0.514);
@@ -186,6 +187,62 @@ hr{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
+}
 
+#container{
+    display: flex;
+    justify-content: center;
+}
+#section-rating{
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+#section-rating h1{
+    font-size: 50px;
+    
+}
+
+#text-left{
+    height: 500px;
+    width: 600px;
+    margin-right: 10px;
+}
+#text-left h1,p{
+    padding: 20px;
+    
+}
+#text-left p{
+    font-size: 18px;
+    text-align: justify;
+    
+}
+#text-left a{
+    padding: 20px;
+    text-decoration: none;
+    color: #5799fb;
+    font-size: 18px;
+}
+
+
+#text-right{
+    height: 500px;
+    width: 600px;
+    background-image: url(images/person1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: bottom;
+    
+}
+
+#text-inside-image{
+   position: relative;
+   top: 360px;
+    
+}
+#text-inside-image h3{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
     
 }
