@@ -1,16 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .background{
     position: relative;
-    background-color: black;
+    background: black;
 }
 .background img{
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.4;
 }
+
 #texts{
     position: absolute;
     top: 1px;
@@ -65,7 +67,7 @@ ul li{
     font-size: 40px;
     margin: 50px 30px 50px 30px;
     
-    transition: 0.3s;
+    transition: 0.4s;
     padding: 50px 30px;
     
 }
@@ -277,6 +279,7 @@ button{
     padding: 20px 60px 20px 20px;
     border-radius: 0px 5px 5px 0px;
     margin-left: 0;
+
 }
 footer{
     background-color: black;
