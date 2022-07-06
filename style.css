@@ -1,33 +1,129 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-
+    margin-bottom: 1000px;
 }
 
-#background img{
+.background{
+    position: relative;
+    background-color: black;
+}
+.background img{
     width: 100%;
-    position: absolute;
+    opacity: 0.5;
 }
-
-#lines{
+#texts{
     position: absolute;
+    top: 1px;
     width: 100%;
-    background-image: linear-gradient(360deg,black, rgba(255, 255, 255, 0));
-    height: 1000px;
-    overflow: hidden;
 }
-#lines h1{
+#texts h1{
+    text-align: center;
     font-size: 60px;
-    text-align: center;
-    overflow: hidden;
     color: white;
-    margin-top: 100px;
+    margin-top: 120px;
 }
-#lines p{
-    text-align: center;
+
+#texts p{
     color: white;
-    width: 100%;
+    text-align: center;
+    margin-right:25%;
+    margin-left:25%;
 }
-#donate-now {
+#button{
+    text-align: center;
+    margin-top: 50px;
+}
+#button a{
+    text-align: center;
+    background-color:#FB575D;
+    text-decoration: none;
+    border-radius: 5px ;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#donation-plan{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#donation-plan h1{
+    font-size: 50px;
+}
+
+#donation-plan p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+}
+.package{
+    font-size: 40px;
+    margin: 50px 30px 50px 30px;
     
+    transition: 0.6s;
+    padding: 50px 30px;
+    
+}
+.package:hover{
+    border: 3px solid #FB575D;
+    background-color: #FEEEEE;
+    color: #FB575D;
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+#amount p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+}
+hr{
+    width: 55%;
+}
+#donate-button{
+    margin-top: 50px;
+}
+#donate-button a{
+    text-align: center;
+    background-color:#FB575D;
+    text-decoration: none;
+    border-radius: 5px ;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;}
+
+#our-donation-plan{
+    margin-top: 150px;
+}
+
+#our-donation-plan h1{
+    font-size: 50px;
+}
+#plan{
+    display: flex;
+    justify-content: center;
+}
+#food{
+    background-color: rgba(230, 230, 230, 0.514);
+    height: 450px;
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+#shelter{
+    background-color: rgba(218, 183, 140, 0.233);
+    height: 450px;
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+#education{
+    background-color: rgba(236, 199, 154, 0.199);
+    height: 450px;
+    width: 500px;
+    margin-top: 50px;
 }
